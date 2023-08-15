@@ -91,20 +91,6 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data="start")
             ]])
         )
-    elif data.startswith("ban_user_"):
-
-        user_id = data.split("_", 2)[-1]
-        if Config.UPDATES_CHANNEL is None:
-            await query.answer("Sorry Sir, You didn't Set any Updates Channel!", show_alert=True)
-            return
-        if not int(query.from_user.id) == Config.BOT_OWNER:
-            await query.answer("You are not allowed to do that!", show_alert=True)
-            return
-        try:
-            await client.kick_chat_member(chat_id=int(Config.UPDATES_CHANNEL), user_id=int(user_id))
-            await query.answer("User Banned from Updates Channel!", show_alert=True)
-        except Exception as e:
-            await query.answer(f"Can't Ban Him!\n\nError: {e}", show_alert=True)
 
     elif data == "close":
         try:
