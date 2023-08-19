@@ -1,7 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
-from plugins.check_user_status import handle_user_status
 import traceback
 import os
 from helper.database import db
