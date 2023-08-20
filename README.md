@@ -3,12 +3,6 @@
 # 𝗥𝗘𝗡𝗔𝗠𝗘 𝗦𝗡𝗢𝗪 𝗣𝗥𝗢 𝗕𝗢𝗧
 
 
-<p align="center"> 🅡🅔🅟🅞 🅢🅣🅐🅣🅢 </p>
-
-
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=ritesh-0&repo=PYRO-RENAME-BOT&theme=dark)
-
-
 ### Sᴀᴍᴩʟᴇ Bᴏᴛ (Official Snow Rename Bot)
 
 <p align="center">
@@ -67,7 +61,4 @@ del_caption - Delete Custom Caption
 restart - To Rrstart The Bot (Admin Only)
 status - Check Bot Status (Admin Only)
 broadcast - Send Message To All Users (Admin Only)
-ban_user - [user_id][ban_duration][ban_reason] Ban any user [Owner Only]
-unban_user - [user_id] Unban any user [Owner Only]
-banned_users - Get all Banned  Users [Owner Only]
 ```
