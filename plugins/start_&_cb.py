@@ -22,7 +22,7 @@ async def start(client, message):
         InlineKeyboardButton(
             '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/llathu63035'),
         InlineKeyboardButton(
-            '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/llathu63035 ')
+            '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/llathu63035')
     ], [
         InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
@@ -64,9 +64,9 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton(
-                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/llathu63035 '),
+                    '⛅ Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/llathu63035'),
                 InlineKeyboardButton(
-                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/llathu63035 ')
+                    '🌨️ Sᴜᴩᴩᴏʀᴛ', url='https://t.me/llathu63035')
             ], [
                 InlineKeyboardButton('☃️ Aʙᴏᴜᴛ', callback_data='about'),
                 InlineKeyboardButton('❗ Hᴇʟᴩ', callback_data='help')
